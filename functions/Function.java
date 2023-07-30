@@ -11,14 +11,10 @@ public class Function {
         return Math.max(a, b);
     }
 
-    // Function to check if a number is even and return true if it is, false otherwise
+    // Function to check if a number is even and return true if it is, false
+    // otherwise
     public static boolean isEven(int number) {
         return number % 2 == 0;
-    }
-
-    // Function to greet a person by name and return a greeting message
-    public static String greet(String name) {
-        return "Hello, " + name + "!";
     }
 
     public static void main(String[] args) {
@@ -37,8 +33,5 @@ public class Function {
         System.out.println("Is 5 even? " + isEven(5));
         System.out.println("Is 10 even? " + isEven(10));
 
-        // Using the greet function
-        System.out.println(greet("Alice"));
-        System.out.println(greet("Bob"));
     }
 }
